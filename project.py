@@ -9,12 +9,7 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 
-#ratings_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\ratings.csv")
-#genome_scores_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\genome-scores.csv")
-#genome_tags_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\genome-tags.csv")
-#links_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\links.csv")
-#movies_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\movies.csv")
-#tags_list = pd.read_csv("C:\\Users\\sneupane\\Documents\\Classes\\Fall2018\\Data Mining\\project\\tags.csv")
+
 
 
 ratings = pd.read_csv('ratings.csv', usecols=['userId', 'movieId', 'rating'])
